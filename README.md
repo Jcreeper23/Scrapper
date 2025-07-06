@@ -13,8 +13,8 @@ A modern, easy-to-use Python web scraper with a professional GUI for scraping co
 
 📥 Installation
 ```bash
-git clone https://github.com/yourusername/web-scraper-pro.git
-cd web-scraper-pro
+git clone https://github.com/Jcreeper23/Scrapper.git
+cd Scrapper
 ```
 Install the dependencies:
 ```bash
@@ -22,20 +22,19 @@ pip install requests beautifulsoup4 customtkinter
 ```
 Run the app:
 ```bash
-python scraper_gui.py
+python Scrapper.py
 ```
 
 🖥️ How to Use
-Launch the app by running scraper_gui.py.
-
-In the App
-Enter the website URL to scrape.
-Specify the HTML tag (e.g., div, p) you want to extract.
-(Optional) Add a CSS class for more targeted scraping.
-Set the output file name (e.g., output.txt).
-Click "Scrape Website" to start scraping.
-Results will be saved in the specified file.
-(Optional) Click "Save Configuration" to store your settings in config.json for later use.
+1. Launch the app by running `python Scrapper.py`.  
+2. In the app:
+   - Enter the **website URL** to scrape.  
+   - Specify the **HTML tag** (e.g., `div`, `p`) you want to extract.  
+   - (Optional) Add a **CSS class** for more targeted scraping.  
+   - Set the **output file name** (e.g., `output.txt`).  
+3. Click **"Scrape Website"** to start scraping.  
+4. Results will be saved in the specified file.  
+5. (Optional) Click **"Save Configuration"** to store your settings in `config.json` for later use.  
 
 🛠 Example
 Setting	Example
@@ -47,7 +46,7 @@ Output File	results.txt
 📄 Config File (config.json)
 You can edit your scraper settings directly in config.json:
 
-```Bash
+```json
 {
   "url": "https://example.com",
   "search_tag": "p",
